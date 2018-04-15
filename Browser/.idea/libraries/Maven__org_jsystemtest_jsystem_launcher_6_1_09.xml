@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jsystemtest:jsystem-launcher:6.1.09">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsystemtest/jsystem-launcher/6.1.09/jsystem-launcher-6.1.09.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsystemtest/jsystem-launcher/6.1.09/jsystem-launcher-6.1.09-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsystemtest/jsystem-launcher/6.1.09/jsystem-launcher-6.1.09-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Browser/Browser.iml" filepath="$PROJECT_DIR$/../Browser/Browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Browser/Browser.iml" filepath="$PROJECT_DIR$/../Browser/Browser.iml" group="Cedex" />
+      <module fileurl="file://$PROJECT_DIR$/Cedex.tests.iml" filepath="$PROJECT_DIR$/Cedex.tests.iml" />
+    </modules>
+  </component>
+</project>

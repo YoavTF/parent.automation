@@ -1,0 +1,15 @@
+<sut>
+	<crmApi>
+		<class>com.cedex.api.crm.CRMApi</class>
+		<rootUrl>http://almond:8081</rootUrl>
+		<useAuth>false</useAuth>
+		<!-- <rootUrl>http://dex-crypto-psp/monitor/is-merchant-address</rootUrl>-->
+		<userName>ben</userName>
+		<userPassword>ben123</userPassword>
+		<!-- REST endpoint relative urls -->
+
+		<searchRelativeUrl>/accounts</searchRelativeUrl>
+		<usersRelativeUrl>/accounts/</usersRelativeUrl>
+		<transactionRelativeUrl>/transactions</transactionRelativeUrl>
+	</crmApi>
+</sut>

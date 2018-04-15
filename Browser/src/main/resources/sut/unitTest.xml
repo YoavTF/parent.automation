@@ -1,0 +1,18 @@
+<sut>
+	<chrome>
+		<!-- working with Version 64.0.3282.167 (Official Build) (64-bit) -->
+		<class>com.cedex.browser.ChromeBrowser</class>
+		<url>http://cedex.com</url>
+	</chrome>
+	<firefox>
+		<!-- working with  58.0.2 (64-bit) -->
+		<class>com.cedex.browser.FirefoxBrowser</class>
+		<url>http://cedex.com</url>
+	</firefox>
+	<edge>
+		<!-- Working with Win 10 os build: 16299.248 and Edge ver: 9.0 -->
+		<class>com.cedex.browser.EdgeBrowser</class>
+		<url>http://cedex.com</url>
+	</edge>
+
+</sut>

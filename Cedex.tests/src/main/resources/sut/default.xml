@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sut validators="">
+    <lab>
+        <class>com.cedex.automation.src.Lab</class>
+        <browser index="0">
+            <!-- working with  58.0.2 (64-bit) -->
+            <class>com.cedex.browser.FirefoxBrowser</class>
+            <url>http://cedex.com</url>
+        </browser>
+        <browser index="1">
+            <!-- working with Version 64.0.3282.167 (Official Build) (64-bit) -->
+            <class>com.cedex.browser.ChromeBrowser</class>
+            <url>http://cedex.com</url>
+        </browser>
+        <browser index="2">
+            <!-- Working with Win 10 os build: 16299.248 and Edge ver: 9.0 -->
+            <class>com.cedex.browser.EdgeBrowser</class>
+            <url>http://cedex.com</url>
+        </browser>
+        <restApi>
+            <class>com.cedex.api.crm.CRMApi</class>
+            <!--<rootUrl>http://192.168.200.108:8081</rootUrl>-->
+            <rootUrl>http://dex-crypto-psp/monitor/is-merchant-address</rootUrl>
+            <userName>ben</userName>
+            <userPassword>ciruzbx</userPassword>
+            <!-- REST endpoint relative urls -->
+
+            <searchRelativeUrl>/accounts</searchRelativeUrl>
+            <usersRelativeUrl>/accounts/</usersRelativeUrl>
+            <transactionRelativeUrl>/transactions</transactionRelativeUrl>
+        </restApi>
+    </lab>
+</sut>
