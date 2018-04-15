@@ -243,8 +243,8 @@ public class BrowserActions extends AbstractBaseTest {
             lab.browser[browserIndex].sendKeys(RecognizeBy.NAME, "email" ,emailAddress);
             lab.browser[browserIndex].sendKeys(RecognizeBy.NAME, "password" ,password);
             lab.browser[browserIndex].clickOnGoogleRecaptcha();
-            lab.browser[browserIndex].clickOnElementBy(RecognizeBy.XPATH, "//*[@id=\"login-form\"]/fieldset/div[4]/button");
-
+                lab.browser[browserIndex].clickOnElementBy(RecognizeBy.XPATH, "//*[@id=\"login-form\"]/fieldset/div[4]/button");
+            report.report("fddfsadsfaafdsa");
         }
         catch (Exception e){
             e.printStackTrace();
